@@ -9,6 +9,10 @@
 <body>
   <section class="section">
     <div class="container">
+      <ul>
+        <li><a href="{{ get_url(path='@/index.md') }}">Start</a></li>
+        <li><a href="{{ get_url(path='@/games/_index.md') }}">Games</a></li>
+      </ul>
       {% block content %} {% endblock %}
     </div>
   </section>
