@@ -1,7 +1,9 @@
 $primary-color: #241525;
+$link-color: yellow;
 
 body {
     margin: 0;
+    background-color: $primary-color;
 }
 
 header {
@@ -14,9 +16,32 @@ nav>ul {
 
 nav>ul>li {
     display: inline-block;
-    margin: auto;
+    vertical-align: middle;
+    margin-right: 16px;
 }
 
 .container {
     padding-top: 20px;
+}
+
+a {
+    position: relative;
+    color: $link-color;
+    text-decoration: none;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.3s ease-out, left 0.3s ease-out;
+    background: $link-color;
+}
+
+a:hover::after {
+    width: 100%;
+    left: 0;
 }
