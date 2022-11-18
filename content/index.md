@@ -1,4 +1,4 @@
 +++
-title = "What "
+title = "Wekufu Studios"
 template = "index.html"
 +++

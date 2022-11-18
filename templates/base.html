@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <title>{% block title %}{% endblock title %}</title>
   <link rel="stylesheet" href="/main.css">
+  {% if page.extra.icon %}
+  <link rel="icon" type="image/png" href="{{ page.extra.icon }}">
+  {% else %}
+  <link rel="icon" type="image/png" href="/wekufu_logo.png">
+  {% endif %}
 </head>
 
 <body>
@@ -12,9 +17,10 @@
     <img src="/wekufu_title.png" alt="Wekufu title" width="100%">
     <nav>
       <ul>
-        <li><a href="{{ get_url(path='@/index.md') }}"><img src="/wekufu_logo.png" alt="Logo" width="56px"
-              height="67px"></a></li>
+        <li><a href="{{ get_url(path='@/index.md') }}"><img src="/wekufu_logo.png" alt="Logo" width="40px"
+              height="40px"></a></li>
         <li><a href="{{ get_url(path='@/games/_index.md') }}">Games</a></li>
+        <li><a href="{{ get_url(path='@/about.md') }}">About</a></li>
       </ul>
     </nav>
   </header>
