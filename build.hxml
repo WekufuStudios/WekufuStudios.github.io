@@ -1,0 +1,3 @@
+--js static/image_viewer.js
+-p static
+--main ImageViewer
