@@ -1,10 +1,17 @@
 @import "_theme.scss";
 
+@font-face {
+    font-family: "The aliens are coming";
+    src: url("/DCC - The alien are coming.ttf") format("truetype");
+}
+
 * {
-    color: $text-color;
+    font-family: "The aliens are coming";
+    font-size: 1.2rem;
 }
 
 body {
+    color: $text-color;
     margin: 0;
     min-height: 100vh;
     background-color: $primary-color;
@@ -30,7 +37,10 @@ nav>ul>li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 16px;
-    font-size: 1.7rem;
+}
+
+nav>ul>li>a {
+    font-size: 2rem;
 }
 
 nav img,
@@ -44,6 +54,7 @@ header img {
 
 h1 {
     margin-top: 64px;
+    font-size: 1.8rem;
 }
 
 a {
@@ -130,4 +141,8 @@ footer {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
+}
+
+.erebus-page {
+    color: $erebus-page-text-color;
 }
