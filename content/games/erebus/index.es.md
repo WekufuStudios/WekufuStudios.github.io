@@ -4,13 +4,13 @@ date = "2022-11-25"
 extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page"}
 +++
 
-You wake up in a strange cave. Explore a world in decay and figure out what you are doying there.
+Te despiertas en una extraña cueva. Explora un mundo en declive y descubre que estás haciendo aquí.
 
-- Find, repair, and upgrade a load of weapons.
-- Discover armors hidden around the world, each one with his advantages and disadvantages.
-- Be careful in what you do, your actions have consequences.
+- Encuentra, repara, y mejora una gran variedad de armas.
+- Descubre armaduras escondidas alrededor del mundo, cada una con sus ventajas y desventajas.
+- Ten cuidado con lo que haces, tus acciones tienen consecuencias.
 
-# Screenshots
+# Capturas
 
 <div class="image-grid">
     <img src="screenshots/01.jpg" alt="Screenshot 1">
@@ -22,12 +22,12 @@ You wake up in a strange cave. Explore a world in decay and figure out what you 
 </div>
 
 
-# Available on:
+# Disponible en:
 
 bla bla bla
 
 
-# Have you found a bug or have some suggestion?
+# ¿Has encontrado un bug o tienes alguna sugerencia?
 
-Contact us:
+Contáctanos:
 - mail:

@@ -17,3 +17,15 @@ highlight_code = true
 
 [languages.es]
 build_search_index = true
+
+[languages.es.translations]
+es = "Español"
+en = "English"
+games = "Juegos"
+about_us = "Acerca de Nosotros"
+
+[translations]
+es = "Spanish"
+en = "English"
+games = "Games"
+about_us = "About Us"

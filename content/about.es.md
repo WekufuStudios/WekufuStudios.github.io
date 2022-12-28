@@ -1,18 +1,17 @@
-{% extends "base.html" %}
++++
+title = "Acerca de Nosotros"
+template = "game_page.html"
++++
 
-{% block title %}{{ page.title }}{% endblock title %}
-
-{% block content %}
-<p>We are a small indie studio</p>
+<p>Somos un pequeño estudio indie</p>
 
 <div class="horizontal-container cross-axis-center">
     <div class="vertical-container">
         <img class="pixelated" src="/hernaldo.png" alt="Hernaldo" width="120px" height="120px">
-        <p>Hi, I'm Hernaldo</p>
+        <p>Hey, soy Hernaldo</p>
     </div>
     <div class="vertical-container">
         <img class="pixelated" src="/mateu.png" alt="Mateu" width="120px" height="120px">
-        <p>Hi, I'm Mateu</p>
+        <p>Hola, soy Mateu</p>
     </div>
 </div>
-{% endblock content %}

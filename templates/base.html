@@ -18,12 +18,28 @@
       alt="Wekufu title" width="100%" height="300px">
     <nav>
       <ul>
-        <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src="/wekufu_logo.png" alt="Logo"
-              width="40px" height="40px"></a></li>
-        <li><a href="{{ get_url(path='@/games/_index.md') }}">Games</a></li>
-        <li><a href="{{ get_url(path='@/about.md') }}">About</a></li>
+        <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
+              page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
+        </li>
+        <li><a href="{{ get_url(path='@/games/_index.md') }}">{{ trans(key="games", lang=lang) }}</a>
+        </li>
+        <li><a href="{{ get_url(path='@/about.md') }}">{{ trans(key="about_us", lang=lang) }}</a></li>
       </ul>
     </nav>
+    <div id="lang-picker">
+      <img src="" alt="" width="40" height="24">
+      {% if section %}
+      <span>{{trans(key=section.lang|default(value=config.default_language))}}</span>
+      {% for t in section.translations %}
+      <a href="{{t.permalink|safe}}">{{trans(key=t.lang|default(value=config.default_language))}}</a>
+      {% endfor %}
+      {% else %}
+      <span>{{trans(key=page.lang|default(value=config.default_language))}}</span>
+      {% for t in page.translations %}
+      <a href="{{t.permalink|safe}}">{{trans(key=t.lang|default(value=config.default_language))}}</a>
+      {% endfor %}
+      {% endif %}
+    </div>
   </header>
   <main>
     <div class="container">

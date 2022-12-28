@@ -1,3 +1,9 @@
 --js static/image_viewer.js
 -p static
 --main ImageViewer
+
+--next
+
+--js static/header.js
+-p static
+--main Header

@@ -43,9 +43,13 @@ nav>ul>li>a {
     font-size: 2rem;
 }
 
-nav img,
-header img {
+nav img {
     object-fit: contain;
+}
+
+header>img {
+    object-fit: cover;
+    object-position: 0 150px;
 }
 
 .container {
@@ -114,6 +118,12 @@ footer {
     max-width: 95%;
     max-height: 95%;
     object-fit: contain;
+}
+
+#lang-picker {
+    position: absolute;
+    right: 8px;
+    top: 8px;
 }
 
 .image-grid {
