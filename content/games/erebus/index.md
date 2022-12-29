@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page"}
+extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page"}
 +++
 
 You wake up in a strange cave. Explore a world in decay and figure out what you are doying there.

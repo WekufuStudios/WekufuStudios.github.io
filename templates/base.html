@@ -17,6 +17,14 @@
     <img
       src="{% if page.extra.header_image %}{{ page.extra.header_image }}{% else %}/erebus_title_screen.png{% endif %}"
       alt="Wekufu title" width="100%" height="300px">
+    <div style="position: relative;">
+      <img id="header-logo"
+        src="{% if page.extra.header_title %}{{ page.extra.header_title }}{% else %}/web_header_logo.png{% endif %}"
+        alt="Header image fade">
+    </div>
+    <div style="position: relative;">
+      <img id="header-image-fade" src="/header_fade_down.png" alt="Header image fade">
+    </div>
     <nav>
       <ul>
         <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
@@ -28,16 +36,13 @@
       </ul>
     </nav>
     <div id="lang-picker">
-      <img src="" alt="" width="40" height="24">
       {% if section %}
-      <span>{{trans(key=section.lang|default(value=config.default_language))}}</span>
       {% for t in section.translations %}
-      <a href="{{t.permalink|safe}}">{{trans(key=t.lang|default(value=config.default_language))}}</a>
+      <a href="{{t.permalink|safe}}"><img src="/flags/{{ t.lang }}.png" alt="Language flag"></a>
       {% endfor %}
       {% else %}
-      <span>{{trans(key=page.lang|default(value=config.default_language))}}</span>
       {% for t in page.translations %}
-      <a href="{{t.permalink|safe}}">{{trans(key=t.lang|default(value=config.default_language))}}</a>
+      <a href="{{t.permalink|safe}}"><img src="/flags/{{ t.lang }}.png" alt="Language flag"></a>
       {% endfor %}
       {% endif %}
     </div>
