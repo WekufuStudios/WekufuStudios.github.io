@@ -25,16 +25,6 @@
     <div style="position: relative;">
       <img id="header-image-fade" src="/header_fade_down.png" alt="Header image fade">
     </div>
-    <nav>
-      <ul>
-        <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
-              page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
-        </li>
-        <li><a href="{{ get_url(path='@/games/_index.md') }}">{{ trans(key="games", lang=lang) }}</a>
-        </li>
-        <li><a href="{{ get_url(path='@/about.md') }}">{{ trans(key="about_us", lang=lang) }}</a></li>
-      </ul>
-    </nav>
     <div id="lang-picker">
       {% if section %}
       {% for t in section.translations %}
@@ -47,6 +37,16 @@
       {% endif %}
     </div>
   </header>
+  <nav id="top-bar">
+    <ul>
+      <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
+            page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
+      </li>
+      <li><a href="{{ get_url(path='@/games/_index.md') }}">{{ trans(key="games", lang=lang) }}</a>
+      </li>
+      <li><a href="{{ get_url(path='@/about.md') }}">{{ trans(key="about_us", lang=lang) }}</a></li>
+    </ul>
+  </nav>
   <main>
     <div class="container">
       {% block content %} {% endblock %}

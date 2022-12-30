@@ -14,6 +14,10 @@ class Header {
         HEADER_IMAGE.style.objectPosition = "0 0";
         HEADER_IMAGE.onload = function () {
             var imageRealHeight = getImageRealHeight(HEADER_IMAGE);
+            var pixelsToMove = -imageRealHeight + HEADER_IMAGE.height;
+            if (pixelsToMove > 0) {
+                pixelsToMove = 0;
+            }
             HEADER_IMAGE.animate([
                 {filter: "opacity(0%)"},
                 {filter: "opacity(100%)"},
@@ -26,14 +30,14 @@ class Header {
                 HEADER_IMAGE.style.filter = "opacity(100%)";
                 HEADER_IMAGE.animate([
                     {objectPosition: "0 0"},
-                    {objectPosition: "0 " + (-imageRealHeight + HEADER_IMAGE.height) + "px"},
+                    {objectPosition: "0 " + pixelsToMove + "px"},
                 ],
                 {
                     duration: 4000,
                     iterations: 1,
                     //fill: "forwards",
                 }).onfinish = function() {
-                    HEADER_IMAGE.style.objectPosition = "0 " + (-imageRealHeight + HEADER_IMAGE.height) + "px";
+                    HEADER_IMAGE.style.objectPosition = "0 " + pixelsToMove + "px";
                     Browser.window.setTimeout(function() {
                         HEADER_IMAGE.animate([
                             {filter: "opacity(100%)"},

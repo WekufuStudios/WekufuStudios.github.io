@@ -14,10 +14,14 @@ Header.choseAndAnimateHeaderImage = function() {
 	Header.HEADER_IMAGE.style.objectPosition = "0 0";
 	Header.HEADER_IMAGE.onload = function() {
 		var imageRealHeight = Header.getImageRealHeight(Header.HEADER_IMAGE);
+		var pixelsToMove = -imageRealHeight + Header.HEADER_IMAGE.height;
+		if(pixelsToMove > 0) {
+			pixelsToMove = 0;
+		}
 		Header.HEADER_IMAGE.animate([{ filter : "opacity(0%)"},{ filter : "opacity(100%)"}],{ duration : 1000, iterations : 1}).onfinish = function() {
 			Header.HEADER_IMAGE.style.filter = "opacity(100%)";
-			Header.HEADER_IMAGE.animate([{ objectPosition : "0 0"},{ objectPosition : "0 " + (-imageRealHeight + Header.HEADER_IMAGE.height) + "px"}],{ duration : 4000, iterations : 1}).onfinish = function() {
-				Header.HEADER_IMAGE.style.objectPosition = "0 " + (-imageRealHeight + Header.HEADER_IMAGE.height) + "px";
+			Header.HEADER_IMAGE.animate([{ objectPosition : "0 0"},{ objectPosition : "0 " + pixelsToMove + "px"}],{ duration : 4000, iterations : 1}).onfinish = function() {
+				Header.HEADER_IMAGE.style.objectPosition = "0 " + pixelsToMove + "px";
 				window.setTimeout(function() {
 					Header.HEADER_IMAGE.animate([{ filter : "opacity(100%)"},{ filter : "opacity(0%)"}],{ duration : 2000, iterations : 1}).onfinish = function() {
 						Header.HEADER_IMAGE.style.filter = "opacity(0%)";

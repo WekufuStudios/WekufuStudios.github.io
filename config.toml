@@ -18,14 +18,20 @@ highlight_code = true
 [languages.es]
 build_search_index = true
 
+[languages.ca]
+
 [translations]
-es = "Spanish"
-en = "English"
+# es = "Spanish"
+# en = "English"
 games = "Games"
 about_us = "About Us"
 
 [languages.es.translations]
-es = "Español"
-en = "English"
+# es = "Español"
+# en = "English"
 games = "Juegos"
 about_us = "Acerca de Nosotros"
+
+[languages.ca.translations]
+games = "Jocs"
+about_us = "Sobre nosaltres"
