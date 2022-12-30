@@ -1,9 +1,9 @@
---js static/image_viewer.js
--p static
+--js static/code/image_viewer.js
+-p static/code
 --main ImageViewer
 
 --next
 
---js static/header.js
--p static
+--js static/code/header.js
+-p static/code
 --main Header

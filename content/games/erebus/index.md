@@ -21,6 +21,8 @@ You wake up in a strange cave. Explore a world in decay and figure out what you 
     <img src="screenshots/06.jpg" alt="Screenshot 6">
 </div>
 
+![Armors](armors.gif)
+
 
 # Available on:
 
