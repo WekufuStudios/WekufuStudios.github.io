@@ -1,6 +1,6 @@
 +++
 title = "About"
-template = "game_page.html"
+template = "basic_page.html"
 +++
 
 <p>We are a small indie studio</p>

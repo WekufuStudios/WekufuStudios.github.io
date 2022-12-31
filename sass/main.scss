@@ -99,9 +99,29 @@ footer {
     padding: 8px;
 }
 
+#wekufu-members-hcontainer {
+    column-gap: 8vw;
+}
+
+#wekufu-member-vcontainer {
+    border: 2px solid $text-color;
+    border-radius: 6%;
+    padding: 24px;
+}
+
+#wekufu-member-vcontainer>img {
+    align-self: center;
+    object-fit: contain;
+    width: 80%;
+    height: 250px;
+}
+
+#wekufu-member-container>ul {
+    margin: 0;
+}
+
 .horizontal-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .vertical-container {
@@ -109,8 +129,16 @@ footer {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .cross-axis-center {
     justify-content: space-evenly;
+}
+
+.cross-axis-center>* {
+    flex: 1 1 0px;
 }
 
 #image-viewer {

@@ -1,4 +1,4 @@
 +++
 title = "Wekufu Studios"
-template = "index.html"
+template = "basic_page.html"
 +++
