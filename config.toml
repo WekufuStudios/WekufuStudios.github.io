@@ -20,18 +20,29 @@ build_search_index = true
 
 [languages.ca]
 
+
 [translations]
-# es = "Spanish"
-# en = "English"
 games = "Games"
 about_us = "About Us"
 
+# Erebus page sections
+screenshots = "Screenshots"
+available_on = "Available on:"
+
+
 [languages.es.translations]
-# es = "Español"
-# en = "English"
 games = "Juegos"
 about_us = "Acerca de Nosotros"
+
+# Erebus page sections
+screenshots = "Capturas"
+available_on = "Disponible en:"
+
 
 [languages.ca.translations]
 games = "Jocs"
 about_us = "Sobre nosaltres"
+
+# Erebus page sections
+screenshots = "Captures de pantalla"
+available_on = "disponible a:"

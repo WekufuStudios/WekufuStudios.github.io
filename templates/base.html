@@ -39,12 +39,19 @@
   </header>
   <nav id="top-bar">
     <ul>
-      <li><a href="{{ get_url(path='@/index.md') }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
-            page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
+      <li><a href="{{ get_url(path='@/index.md', lang=lang) }}"><img class="rotate-on-hover" src={% if
+            page.extra.bar_icon %}{{ page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo"
+            width="40px" height="40px"></a>
+        {% if page.extra.top_bar_elements %}
+        {% for element in page.extra.top_bar_elements %}
+      <li><a href="#{{ trans(key=element, lang=lang) | slugify }}">{{ trans(key=element, lang=lang) }}</a></li>
+      {% endfor %}
+      {% else %}
       </li>
-      <li><a href="{{ get_url(path='@/games/_index.md') }}">{{ trans(key="games", lang=lang) }}</a>
+      <li><a href="{{ get_url(path='@/games/_index.md', lang=lang) }}">{{ trans(key="games", lang=lang) }}</a>
       </li>
-      <li><a href="{{ get_url(path='@/about.md') }}">{{ trans(key="about_us", lang=lang) }}</a></li>
+      <li><a href="{{ get_url(path='@/about.md', lang=lang) }}">{{ trans(key="about_us", lang=lang) }}</a></li>
+      {% endif %}
     </ul>
   </nav>
   <main>
@@ -60,8 +67,9 @@
     <img alt="Expanded image">
   </div>
 
-  <img id="back-to-top-button" src="/go_up_button.png" alt="Back to top button" width="60" height="60"
-    onclick="scrollUp()">
+  <img id="back-to-top-button"
+    src="{% if page.extra.back_to_top_button %}{{ page.extra.back_to_top_button }}{% else %}/go_up_button_yellow.png{% endif %}"
+    alt="Back to top button" width="60" height="60" onclick="scrollUp()">
 
   <script src="/code/image_viewer.js"></script>
   <script src="/code/header.js"></script>
