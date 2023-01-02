@@ -19,9 +19,23 @@ You wake up in a strange cave. Explore a world in decay and figure out what you 
     <img src="screenshots/04.jpg" alt="Screenshot 4">
     <img src="screenshots/05.jpg" alt="Screenshot 5">
     <img src="screenshots/06.jpg" alt="Screenshot 6">
+    <img src="screenshots/07.jpg" alt="Screenshot 7">
+    <img src="screenshots/08.jpg" alt="Screenshot 8">
+    <img src="screenshots/09.jpg" alt="Screenshot 9">
+    <img src="screenshots/10.jpg" alt="Screenshot 10">
+    <img src="screenshots/11.jpg" alt="Screenshot 11">
+    <img src="screenshots/12.jpg" alt="Screenshot 12">
 </div>
 
 ![Armors](armors.gif)
+
+
+# Download demo
+
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/windows.svg" alt="Windows icon" width="90px"></a>
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/linux.svg" alt="Windows icon" width="90px"></a>
+</div>
 
 
 # Available on:

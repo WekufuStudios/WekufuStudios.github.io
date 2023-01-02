@@ -3,7 +3,7 @@ title = "Acerca de Nosotros"
 template = "basic_page.html"
 +++
 
-Somos un pequeño estudio independiente creado por la pasión que tenemos tanto de jugar como crear videojuegos, creamos videojuegos con la perspectiva de lo que quiere el jugador en el, no por lo que la industria sigue como tendencia.
+Somos un pequeño estudio independiente creado por la pasión que tenemos tanto de jugar como crear videojuegos. Creamos videojuegos con la perspectiva de lo que quiere el jugador en ellos, no por lo que la industria sigue como tendencia.
 
 Planeamos crear juegos que puedan ser disfrutados completamente desde que lo compras, nada de DLC’s abusivos que te otorgan cosas que ya existían cuando el juego fue lanzado, microtransacciones o pases de temporada.
 

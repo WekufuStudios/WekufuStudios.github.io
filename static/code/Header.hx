@@ -3,7 +3,8 @@ import js.html.Console;
 import js.Browser;
 
 class Header {
-    static final IMAGE_PATHS = ["/content/games/erebus/screenshots/01.jpg", "/content/games/erebus/screenshots/02.jpg", "/content/games/erebus/screenshots/03.jpg"];
+    static final IMAGE_PATHS = ["/content/games/erebus/screenshots/07.jpg", "/content/games/erebus/screenshots/08.jpg", "/content/games/erebus/screenshots/09.jpg", "/content/games/erebus/screenshots/10.jpg", "/content/games/erebus/screenshots/12.jpg",
+        "/header_images/erebus/corte_01.jpg", "/header_images/erebus/corte_02.jpg", "/header_images/erebus/corte_03.jpg", "/header_images/erebus/corte_05.jpg", "/header_images/erebus/corte_06.jpg"];
     static final HEADER_IMAGE: ImageElement = cast(Browser.document.getElementsByTagName("header")[0].getElementsByTagName("img")[0], ImageElement);
     
     static function main() {

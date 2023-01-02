@@ -19,6 +19,12 @@ Te despiertas en una extraña cueva. Explora un mundo en declive y descubre que 
     <img src="screenshots/04.jpg" alt="Screenshot 4">
     <img src="screenshots/05.jpg" alt="Screenshot 5">
     <img src="screenshots/06.jpg" alt="Screenshot 6">
+    <img src="screenshots/07.jpg" alt="Screenshot 7">
+    <img src="screenshots/08.jpg" alt="Screenshot 8">
+    <img src="screenshots/09.jpg" alt="Screenshot 9">
+    <img src="screenshots/10.jpg" alt="Screenshot 10">
+    <img src="screenshots/11.jpg" alt="Screenshot 11">
+    <img src="screenshots/12.jpg" alt="Screenshot 12">
 </div>
 
 ![Armors](armors.gif)
