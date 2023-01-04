@@ -4,6 +4,8 @@ date = "2022-11-25"
 extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "available_on"]}
 +++
 
+**IMPORTANTE**: El juego aún está en desarrollo, algunas de estas características se irán implementando.
+
 Te despiertas en una extraña cueva. Explora un mundo en declive y descubre que estás haciendo aquí.
 
 - Encuentra, repara, y mejora una gran variedad de armas.

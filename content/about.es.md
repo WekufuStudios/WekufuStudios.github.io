@@ -7,7 +7,7 @@ Somos un pequeño estudio independiente creado por la pasión que tenemos tanto 
 
 Planeamos crear juegos que puedan ser disfrutados completamente desde que lo compras, nada de DLC’s abusivos que te otorgan cosas que ya existían cuando el juego fue lanzado, microtransacciones o pases de temporada.
 
-Tenemos cierta nostalgia por el pasado y pensamos que si compras un juego debería ser tuyo para siempre, como antes, donde sólo te preocupabas por comprar e instalar.
+Creemos que los juegos para un jugador seguirán teniendo siempre un lugar especial en los corazones de los gamers y, a pesar de que en muchos lugares se diga que el single player está muriendo, juegos como los que hacemos están enfocados en demostrar lo contrario.
 
 
 # Bros
