@@ -4,7 +4,9 @@ date = "2022-11-25"
 extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "available_on"]}
 +++
 
+![Test Dummy](test_dummy.png)
 **IMPORTANT**: El joc encara està en desenvolupament, algunes de les característiques s'aniran implementant o poden canviar en el futur.
+![Test Dummy](test_dummy.png)
 
 Erebus és una aventura d'acció amb elements de rol.
 
@@ -13,15 +15,24 @@ Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que
 - Combat perilloses criatures que requereixen diferents estratègies i atacs.
 - Busca i troba respostes en un món que es va revelant a mesura que el recorres, gràcies a una campanya que es genera dinàmicament segons les teves decisions.
 - Troba, repara, i millora una gran varietat d'armes.
+
+![Weapons reel](weapons_reel.png)
+
 - Descobreix diferents armadures amagades al voltant del món, cada una amb els seus avantatges i desavantatges que canviaran el teu estil de joc.
 
 ![Armors](armors.gif)
 
 - Varietat de NPCs, cada un amb la seva pròpia història, rerefons i objectius; no ets cap elegit, només una persona més en aquest món.
+
+<img alt="Oriel" src="/icons/erebus_npcs/oriel.png" width="64px" class="pixelated">
+<img alt="Stephan" src="/icons/erebus_npcs/stephan.png" width="64px" class="pixelated">
+<img alt="Sariff" src="/icons/erebus_npcs/sariff.png" width="64px" class="pixelated">
+<img alt="Vilsen" src="/icons/erebus_npcs/vilsen.png" width="64px" class="pixelated">
+
 - Diferents ambients i escenaris que posaran a prova les teves capacitats.
 - Decisions sobre la història portaran a diferents resultats o finals; no només els teus diàlegs, sinó també les teves accions tindran conseqüències...
 
-# Captures
+# Captures de pantalla
 
 <div class="image-grid">
     <img src="screenshots/01.jpg" alt="Screenshot 1">
