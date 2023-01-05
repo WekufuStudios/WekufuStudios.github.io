@@ -6,11 +6,20 @@ extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_t
 
 **IMPORTANTE**: El juego aún está en desarrollo, algunas de estas características se irán implementando.
 
-Te despiertas en una extraña cueva. Explora un mundo en declive y descubre que estás haciendo aquí.
+Erebus es una aventura de acción con elementos de rol.
 
+Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que te llevaron a Erebus.
+
+- Combate con peligrosas criaturas que requieren diferentes estrategias y ataques.
+- Busca y encuentra respuestas en un mundo que se va desvelando a medida que lo recorres, gracias a una campaña que se genera dinámicamente según tus decisiones.
 - Encuentra, repara, y mejora una gran variedad de armas.
 - Descubre armaduras escondidas alrededor del mundo, cada una con sus ventajas y desventajas.
-- Ten cuidado con lo que haces, tus acciones tienen consecuencias.
+
+![Armors](armors.gif)
+
+- Variedad de NPC’s cada uno con su propia historia, trasfondo y objetivos; no eres ningún elegido, solo uno más en este mundo.
+- Diversos ambientes y escenarios que pondrán a prueba tus capacidades.
+- Decisiones en la historia que llevan a diferentes resultados o finales en la historia; no sólo tus diálogos, sino también tus acciones tendrán consecuencias...
 
 # Capturas
 
@@ -29,7 +38,13 @@ Te despiertas en una extraña cueva. Explora un mundo en declive y descubre que 
     <img src="screenshots/12.jpg" alt="Screenshot 12">
 </div>
 
-![Armors](armors.gif)
+
+# Download demo
+
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/windows.svg" alt="Windows icon" width="90px"></a>
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/linux.svg" alt="Windows icon" width="90px"></a>
+</div>
 
 
 # Disponible en:
@@ -40,4 +55,4 @@ bla bla bla
 # ¿Has encontrado un bug o tienes alguna sugerencia?
 
 Contáctanos:
-- mail:
+- mail: [wekufu.studios@gmail.com](mailto:wekufu.studios@gmail.com)
