@@ -4,13 +4,24 @@ date = "2022-11-25"
 extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "available_on"]}
 +++
 
-You wake up in a strange cave. Explore a world in decay and figure out what you are doying there.
+**IMPORTANT**: El joc encara està en desenvolupament, algunes de les característiques s'aniran implementant o poden canviar en el futur.
 
-- Find, repair, and upgrade a load of weapons.
-- Discover armors hidden around the world, each one with his advantages and disadvantages.
-- Be careful in what you do, your actions have consequences.
+Erebus és una aventura d'acció amb elements de rol.
 
-# Screenshots
+Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que t'han portat a Erebus.
+
+- Combat perilloses criatures que requereixen diferents estratègies i atacs.
+- Busca i troba respostes en un món que es va revelant a mesura que el recorres, gràcies a una campanya que es genera dinàmicament segons les teves decisions.
+- Troba, repara, i millora una gran varietat d'armes.
+- Descobreix diferents armadures amagades al voltant del món, cada una amb els seus avantatges i desavantatges que canviaran el teu estil de joc.
+
+![Armors](armors.gif)
+
+- Varietat de NPCs, cada un amb la seva pròpia història, rerefons i objectius; no ets cap elegit, només una persona més en aquest món.
+- Diferents ambients i escenaris que posaran a prova les teves capacitats.
+- Decisions sobre la història portaran a diferents resultats o finals; no només els teus diàlegs, sinó també les teves accions tindran conseqüències...
+
+# Captures
 
 <div class="image-grid">
     <img src="screenshots/01.jpg" alt="Screenshot 1">
@@ -27,15 +38,21 @@ You wake up in a strange cave. Explore a world in decay and figure out what you 
     <img src="screenshots/12.jpg" alt="Screenshot 12">
 </div>
 
-![Armors](armors.gif)
+
+# Descarga la demo
+
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/windows.svg" alt="Windows icon" width="90px"></a>
+    <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/linux.svg" alt="Windows icon" width="90px"></a>
+</div>
 
 
-# Available on:
+# Disponible a:
 
 bla bla bla
 
 
-# Have you found a bug or have some suggestion?
+# Has trobat algun bug o tens algun suggeriment?
 
-Contact us:
-- mail:
+Contáctanos:
+- mail: [wekufu.studios@gmail.com](mailto:wekufu.studios@gmail.com)
