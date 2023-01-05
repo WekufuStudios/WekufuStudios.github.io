@@ -4,7 +4,7 @@ date = "2022-11-25"
 extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "available_on"]}
 +++
 
-**IMPORTANTE**: El juego aún está en desarrollo, algunas de estas características se irán implementando.
+**IMPORTANTE**: El juego aún está en desarrollo, algunas de estas características se irán implementando o pueden cambiar en el futuro.
 
 Erebus es una aventura de acción con elementos de rol.
 
@@ -13,13 +13,13 @@ Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que
 - Combate con peligrosas criaturas que requieren diferentes estrategias y ataques.
 - Busca y encuentra respuestas en un mundo que se va desvelando a medida que lo recorres, gracias a una campaña que se genera dinámicamente según tus decisiones.
 - Encuentra, repara, y mejora una gran variedad de armas.
-- Descubre armaduras escondidas alrededor del mundo, cada una con sus ventajas y desventajas.
+- Descubre diferentes armaduras escondidas alrededor del mundo, cada una con sus ventajas y desventajas que cambiarán tu estilo de juego.
 
 ![Armors](armors.gif)
 
 - Variedad de NPC’s cada uno con su propia historia, trasfondo y objetivos; no eres ningún elegido, solo uno más en este mundo.
 - Diversos ambientes y escenarios que pondrán a prueba tus capacidades.
-- Decisiones en la historia que llevan a diferentes resultados o finales en la historia; no sólo tus diálogos, sino también tus acciones tendrán consecuencias...
+- Decisiones en la historia que llevan a diferentes resultados o finales; no sólo tus diálogos, sino también tus acciones tendrán consecuencias...
 
 # Capturas
 
@@ -39,7 +39,7 @@ Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que
 </div>
 
 
-# Download demo
+# Descarga la demo!
 
 <div class="horizontal-container wrap" style="gap: 70px;">
     <a href="/demo/Erebus-demo-0.1.0.0-Windows.zip" download><img src="/icons/windows.svg" alt="Windows icon" width="90px"></a>
