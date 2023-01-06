@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "download_demo", "available_on"]}
+extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "download_demo", "available_on", "contact_or_follow"]}
 +++
 
 ![Test Dummy](test_dummy.png)
@@ -20,6 +20,8 @@ Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que
 - Encuentra, repara, y mejora una gran variedad de armas.
 
 ![Weapons reel](weapons_reel.png)
+
+<img alt="Weapon tiers" src="weapon_tiers.png" height="165px">
 
 - Descubre diferentes armaduras escondidas alrededor del mundo, cada una con sus ventajas y desventajas que cambiarán tu estilo de juego.
 
@@ -66,7 +68,21 @@ Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que
 bla bla bla
 
 
-# ¿Has encontrado un bug o tienes alguna sugerencia?
+# Contáctanos o síguenos
 
-Contáctanos:
-- ![Mail](/icons/mail.png): [wekufu.studios@gmail.com](mailto:wekufu.studios@gmail.com)
+<div id="contact-us-section">
+    <ul>
+        <li>
+            <img alt="Mastodon icon" src="/icons/mastodon.svg">: <a href="https://mastodon.gamedev.place/@wekufustudios" target="_blank">https://mastodon.gamedev.place/@wekufustudios</a>
+        </li>
+        <li>
+            <img alt="Mail icon" src="/icons/mail.png">: <a href="mailto:wekufu.studios@gmail.com" target="_blank">wekufu.studios@gmail.com</a>
+        </li>
+        <li>
+            <img alt="Twitter icon" src="/icons/twitter.svg">: <a href="https://nitter.unixfox.eu/WekufuStudios" target="_blank">https://nitter.unixfox.eu/WekufuStudios</a>
+        </li>
+        <li>
+            <img alt="Youtube icon" src="/icons/youtube.svg">: <a href="https://www.youtube.com/@wekufustudios" target="_blank">https://www.youtube.com/@wekufustudios</a>
+        </li>
+    </ul>
+</div>

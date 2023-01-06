@@ -29,6 +29,7 @@ about_us = "About Us"
 screenshots = "Screenshots"
 download_demo = "Download demo"
 available_on = "Available on:"
+contact_or_follow = "Contact or follow us"
 
 
 [languages.es.translations]
@@ -39,6 +40,7 @@ about_us = "Acerca de Nosotros"
 screenshots = "Capturas"
 download_demo = "Descarga la demo"
 available_on = "Disponible en:"
+contact_or_follow = "Contáctanos o síguenos"
 
 
 [languages.ca.translations]
@@ -49,3 +51,4 @@ about_us = "Sobre nosaltres"
 screenshots = "Captures de pantalla"
 download_demo = "Descarga la demo"
 available_on = "Disponible a:"
+contact_or_follow = "Contacte amb nosaltres o segueix-nos"

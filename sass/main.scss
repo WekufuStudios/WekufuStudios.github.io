@@ -228,3 +228,21 @@ footer {
 .erebus-page #top-bar {
     border-bottom-color: $erebus-page-text-color;
 }
+
+#contact-us-section {
+    background-image: url("/noticeboard_panel.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 256px;
+    padding: 32px 44px;
+}
+
+#contact-us-section>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact-us-section>ul>li {
+    margin-bottom: 8px;
+}
