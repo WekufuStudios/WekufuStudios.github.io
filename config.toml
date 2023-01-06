@@ -27,6 +27,7 @@ about_us = "About Us"
 
 # Erebus page sections
 screenshots = "Screenshots"
+download_demo = "Download demo"
 available_on = "Available on:"
 
 
@@ -36,6 +37,7 @@ about_us = "Acerca de Nosotros"
 
 # Erebus page sections
 screenshots = "Capturas"
+download_demo = "Descarga la demo"
 available_on = "Disponible en:"
 
 
@@ -45,4 +47,5 @@ about_us = "Sobre nosaltres"
 
 # Erebus page sections
 screenshots = "Captures de pantalla"
+download_demo = "Descarga la demo"
 available_on = "Disponible a:"
