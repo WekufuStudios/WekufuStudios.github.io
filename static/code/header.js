@@ -280,7 +280,7 @@ var Bool = Boolean;
 var Class = { };
 var Enum = { };
 js_Boot.__toStr = ({ }).toString;
-Header.IMAGE_PATHS = ["/content/games/erebus/screenshots/07.jpg","/content/games/erebus/screenshots/08.jpg","/content/games/erebus/screenshots/09.jpg","/content/games/erebus/screenshots/10.jpg","/content/games/erebus/screenshots/12.jpg","/header_images/erebus/corte_01.jpg","/header_images/erebus/corte_02.jpg","/header_images/erebus/corte_03.jpg","/header_images/erebus/corte_05.jpg","/header_images/erebus/corte_06.jpg"];
+Header.IMAGE_PATHS = ["/games/erebus/screenshots/07.jpg","/games/erebus/screenshots/08.jpg","/games/erebus/screenshots/09.jpg","/games/erebus/screenshots/10.jpg","/games/erebus/screenshots/12.jpg","/header_images/erebus/corte_01.jpg","/header_images/erebus/corte_02.jpg","/header_images/erebus/corte_03.jpg","/header_images/erebus/corte_05.jpg","/header_images/erebus/corte_06.jpg"];
 Header.HEADER_IMAGE = js_Boot.__cast(window.document.getElementsByTagName("header")[0].getElementsByTagName("img")[0] , HTMLImageElement);
 Header.main();
 })(typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this);
