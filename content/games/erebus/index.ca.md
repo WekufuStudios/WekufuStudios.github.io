@@ -73,7 +73,7 @@ bla bla bla
 <div id="contact-us-section">
     <ul>
         <li>
-            <img alt="Mastodon icon" src="/icons/mastodon.svg">: <a href="https://mastodon.gamedev.place/@wekufustudios" target="_blank">https://mastodon.gamedev.place/@wekufustudios</a>
+            <img alt="Mastodon icon" src="/icons/mastodon.svg">: <a href="https://mastodon.gamedev.place/@wekufustudios" rel="me" target="_blank">https://mastodon.gamedev.place/@wekufustudios</a>
         </li>
         <li>
             <img alt="Mail icon" src="/icons/mail.png">: <a href="mailto:wekufu.studios@gmail.com" target="_blank">wekufu.studios@gmail.com</a>

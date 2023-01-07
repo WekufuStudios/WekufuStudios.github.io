@@ -39,9 +39,8 @@
   </header>
   <nav id="top-bar">
     <ul>
-      <li><a href="{{ get_url(path='@/index.md', lang=lang) }}"><img class="rotate-on-hover" src={% if
-            page.extra.bar_icon %}{{ page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo"
-            width="40px" height="40px"></a>
+      <li><a href="{{ get_url(path='', lang=lang) }}"><img class="rotate-on-hover" src={% if page.extra.bar_icon %}{{
+            page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
         {% if page.extra.top_bar_elements %}
         {% for element in page.extra.top_bar_elements %}
       <li><a href="#{{ trans(key=element, lang=lang) | slugify }}">{{ trans(key=element, lang=lang) }}</a></li>

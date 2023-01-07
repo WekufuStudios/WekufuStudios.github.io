@@ -22,6 +22,9 @@ build_search_index = true
 
 
 [translations]
+index_text = "We are currently working on Erebus, our first videogame, lear more about it "
+here = "here"
+
 games = "Games"
 about_us = "About Us"
 
@@ -33,6 +36,9 @@ contact_or_follow = "Contact or follow us"
 
 
 [languages.es.translations]
+index_text = "En estos momentos trabajamos en Erebus, nuestro primer videojuego, ¡descubre más "
+here = "aquí"
+
 games = "Juegos"
 about_us = "Acerca de Nosotros"
 
@@ -44,6 +50,9 @@ contact_or_follow = "Contáctanos o síguenos"
 
 
 [languages.ca.translations]
+index_text = "En aquests moments estem treballant en Erebus, el nostre primer videojoc, descobreix més "
+here = "aquí"
+
 games = "Jocs"
 about_us = "Sobre nosaltres"
 

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Weküfu Studios{% endblock title %}
+
+{% block content %}
+<p>
+    {{ trans(key="index_text", lang=lang) }}<a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">{{
+        trans(key="here", lang=lang) }}!</a>
+</p>
+{% endblock content %}
