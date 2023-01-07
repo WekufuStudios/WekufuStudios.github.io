@@ -29,9 +29,10 @@ games = "Games"
 about_us = "About Us"
 
 # Erebus page sections
+features = "Features"
 screenshots = "Screenshots"
 download_demo = "Download demo"
-available_on = "Available on:"
+available_on = "Available on"
 contact_or_follow = "Contact or follow us"
 
 
@@ -43,9 +44,10 @@ games = "Juegos"
 about_us = "Acerca de Nosotros"
 
 # Erebus page sections
+features = "Características"
 screenshots = "Capturas"
 download_demo = "Descarga la demo"
-available_on = "Disponible en:"
+available_on = "Disponible en"
 contact_or_follow = "Contáctanos o síguenos"
 
 
@@ -57,7 +59,8 @@ games = "Jocs"
 about_us = "Sobre nosaltres"
 
 # Erebus page sections
+features = "Característiques"
 screenshots = "Captures de pantalla"
 download_demo = "Descarga la demo"
-available_on = "Disponible a:"
+available_on = "Disponible a"
 contact_or_follow = "Contacte amb nosaltres o segueix-nos"

@@ -1,0 +1,11 @@
+<div id="contact-us-section">
+    {% set social_networks = load_data(path="/social_networks.yml") -%}
+    <ul>
+        {% for social_network in social_networks %}
+        <li>
+            <img alt="{{ social_network.name }} icon" src="{{ social_network.icon }}">: <a
+                href="{{ social_network.link }}" rel="me" target="_blank">{{ social_network.link }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

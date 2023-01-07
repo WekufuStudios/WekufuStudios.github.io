@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["screenshots", "download_demo", "available_on", "contact_or_follow"]}
+extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "download_demo", "available_on", "contact_or_follow"]}
 +++
 
 ![Test Dummy](test_dummy.png)
@@ -11,6 +11,9 @@ extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_t
 Erebus és una aventura d'acció amb elements de rol.
 
 Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que t'han portat a Erebus.
+
+
+# Característiques
 
 - Combat perilloses criatures que requereixen diferents estratègies i atacs.
 
@@ -69,20 +72,3 @@ bla bla bla
 
 
 # Contacte amb nosaltres o segueix-nos
-
-<div id="contact-us-section">
-    <ul>
-        <li>
-            <img alt="Mastodon icon" src="/icons/mastodon.svg">: <a href="https://mastodon.gamedev.place/@wekufustudios" rel="me" target="_blank">https://mastodon.gamedev.place/@wekufustudios</a>
-        </li>
-        <li>
-            <img alt="Mail icon" src="/icons/mail.png">: <a href="mailto:wekufu.studios@gmail.com" target="_blank">wekufu.studios@gmail.com</a>
-        </li>
-        <li>
-            <img alt="Twitter icon" src="/icons/twitter.svg">: <a href="https://nitter.unixfox.eu/WekufuStudios" target="_blank">https://nitter.unixfox.eu/WekufuStudios</a>
-        </li>
-        <li>
-            <img alt="Youtube icon" src="/icons/youtube.svg">: <a href="https://www.youtube.com/@wekufustudios" target="_blank">https://www.youtube.com/@wekufustudios</a>
-        </li>
-    </ul>
-</div>
