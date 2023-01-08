@@ -68,7 +68,9 @@ Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que
 
 # Disponible a:
 
-bla bla bla
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="https://wekufu-studios.itch.io/erebus" rel="me" target="_blank"><img src="/icons/itchio.svg" alt="Itch.io icon" width="90px"></a>
+</div>
 
 
 # Contacte amb nosaltres o segueix-nos

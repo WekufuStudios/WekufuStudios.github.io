@@ -96,8 +96,19 @@ a:hover::after {
 }
 
 footer {
+    position: relative;
     background-color: lighten($primary-color, 5%);
     padding: 8px;
+}
+
+footer>ul {
+    list-style: none;
+    position: absolute;
+    right: 16px;
+    bottom: 8px;
+    padding: 0;
+    margin: 0;
+    gap: 6px;
 }
 
 #wekufu-members-hcontainer {
@@ -224,10 +235,10 @@ footer {
 
 .erebus-page {
     color: $erebus-page-text-color;
-}
 
-.erebus-page #top-bar {
-    border-bottom-color: $erebus-page-text-color;
+    #top-bar {
+        border-bottom-color: $erebus-page-text-color;
+    }
 }
 
 #contact-us-section {
@@ -236,14 +247,17 @@ footer {
     background-size: contain;
     min-height: 275px;
     padding: 32px 44px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 8px;
+        }
+    }
 }
 
-#contact-us-section>ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-#contact-us-section>ul>li {
-    margin-bottom: 8px;
-}
+@import "_small_width.scss";

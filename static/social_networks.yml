@@ -14,6 +14,9 @@
 - name: Youtube
   icon: /icons/youtube.svg
   link: https://www.youtube.com/@wekufustudios
+- name: Matrix
+  icon: /icons/matrix.svg
+  link: https://matrix.to/#/#wekufu-studios:matrix.org
 - name: Discord
   icon: /icons/discord.svg
   link: https://discord.gg/gKsKzpY9

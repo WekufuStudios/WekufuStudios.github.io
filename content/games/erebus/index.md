@@ -68,7 +68,9 @@ Dive in a hostile and mysterious world and unveil the reasons that left you in E
 
 # Available on:
 
-bla bla bla
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="https://wekufu-studios.itch.io/erebus" rel="me" target="_blank"><img src="/icons/itchio.svg" alt="Itch.io icon" width="90px"></a>
+</div>
 
 
 # Contact or follow us
