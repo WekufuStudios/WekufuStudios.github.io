@@ -4,6 +4,7 @@
 - name: Mail
   icon: /icons/mail.png
   link: wekufu.studios@gmail.com
+  link_prefix: "mailto:"
 - name: itchio
   icon: /icons/itchio.svg
   link: https://wekufu-studios.itch.io/
@@ -13,6 +14,9 @@
 - name: Youtube
   icon: /icons/youtube.svg
   link: https://www.youtube.com/@wekufustudios
+- name: Discord
+  icon: /icons/discord.svg
+  link: https://discord.gg/gKsKzpY9
 - name: Facebook
   icon: /icons/facebook.svg
   link: https://www.facebook.com/profile.php?id=100089191994274

@@ -72,3 +72,5 @@ bla bla bla
 
 
 # Contacte amb nosaltres o segueix-nos
+
+{{ social_networks_list() }}

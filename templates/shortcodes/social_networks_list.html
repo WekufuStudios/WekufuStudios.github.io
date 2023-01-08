@@ -4,7 +4,8 @@
         {% for social_network in social_networks %}
         <li>
             <img alt="{{ social_network.name }} icon" src="{{ social_network.icon }}">: <a
-                href="{{ social_network.link }}" rel="me" target="_blank">{{ social_network.link }}</a>
+                href="{% if social_network.link_prefix %}{{ social_network.link_prefix }}{% endif %}{{ social_network.link }}"
+                rel="me" target="_blank">{{ social_network.link }}</a>
         </li>
         {% endfor %}
     </ul>
