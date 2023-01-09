@@ -5,8 +5,13 @@
     src: url("/DCC - The alien are coming.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Essays1743";
+    src: url("/Essays1743.ttf") format("truetype");
+}
+
 * {
-    font-family: "The aliens are coming";
+    font-family: "The aliens are coming", "Essays1743";
     font-size: 1.2rem;
 }
 
