@@ -6,10 +6,10 @@ class ImageViewer {
     static function main() {
         var imageViewer = Browser.document.getElementById("image-viewer");
         var imageViewerImage: ImageElement = cast(imageViewer.firstElementChild, ImageElement);
-        var imageGrid = Browser.document.getElementsByClassName("image-grid")[0];
+        var imageGrids = Browser.document.getElementsByClassName("image-grid");
         
         // We don't need to continue if there is not an image grid in this page
-        if (imageGrid == null) {
+        if (imageGrids.length == 0) {
             return;
         }
 
@@ -18,16 +18,18 @@ class ImageViewer {
             Browser.document.body.style.overflow = "auto";
         }
 
-        for (child in imageGrid.children) {
-            var imageElement: ImageElement = cast(child, ImageElement);
-            if (imageElement == null) {
-                Console.error("ERROR: All the children of an image grid must be images");
-                continue;
-            }
-            imageElement.onclick = function() {
-                imageViewerImage.src = imageElement.src;
-                imageViewer.style.display = "flex";
-                Browser.document.body.style.overflow = "hidden";
+        for (imageGrid in imageGrids) {
+            for (child in imageGrid.children) {
+                var imageElement: ImageElement = cast(child, ImageElement);
+                if (imageElement == null) {
+                    Console.error("ERROR: All the children of an image grid must be images");
+                    continue;
+                }
+                imageElement.onclick = function() {
+                    imageViewerImage.src = imageElement.src;
+                    imageViewer.style.display = "flex";
+                    Browser.document.body.style.overflow = "hidden";
+                }
             }
         }
     }

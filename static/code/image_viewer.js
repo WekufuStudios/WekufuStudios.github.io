@@ -10,8 +10,8 @@ ImageViewer.__name__ = true;
 ImageViewer.main = function() {
 	var imageViewer = window.document.getElementById("image-viewer");
 	var imageViewerImage = js_Boot.__cast(imageViewer.firstElementChild , HTMLImageElement);
-	var imageGrid = window.document.getElementsByClassName("image-grid")[0];
-	if(imageGrid == null) {
+	var imageGrids = window.document.getElementsByClassName("image-grid");
+	if(imageGrids.length == 0) {
 		return;
 	}
 	imageViewer.onclick = function() {
@@ -19,22 +19,27 @@ ImageViewer.main = function() {
 		window.document.body.style.overflow = "auto";
 	};
 	var _g = 0;
-	var _g1 = imageGrid.children;
-	while(_g < _g1.length) {
-		var child = _g1[_g];
+	while(_g < imageGrids.length) {
+		var imageGrid = imageGrids[_g];
 		++_g;
-		var imageElement = [js_Boot.__cast(child , HTMLImageElement)];
-		if(imageElement[0] == null) {
-			console.error("ERROR: All the children of an image grid must be images");
-			continue;
+		var _g1 = 0;
+		var _g2 = imageGrid.children;
+		while(_g1 < _g2.length) {
+			var child = _g2[_g1];
+			++_g1;
+			var imageElement = [js_Boot.__cast(child , HTMLImageElement)];
+			if(imageElement[0] == null) {
+				console.error("ERROR: All the children of an image grid must be images");
+				continue;
+			}
+			imageElement[0].onclick = (function(imageElement) {
+				return function() {
+					imageViewerImage.src = imageElement[0].src;
+					imageViewer.style.display = "flex";
+					window.document.body.style.overflow = "hidden";
+				};
+			})(imageElement);
 		}
-		imageElement[0].onclick = (function(imageElement) {
-			return function() {
-				imageViewerImage.src = imageElement[0].src;
-				imageViewer.style.display = "flex";
-				window.document.body.style.overflow = "hidden";
-			};
-		})(imageElement);
 	}
 };
 Math.__name__ = true;

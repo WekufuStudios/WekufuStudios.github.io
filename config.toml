@@ -34,6 +34,7 @@ erebus_short_description = "You wake up in Erebus without any memories. Find ans
 # Erebus page sections
 features = "Features"
 screenshots = "Screenshots"
+artwork = "Artwork"
 available_on = "Available on"
 contact_or_follow = "Contact or follow us"
 
@@ -51,6 +52,7 @@ erebus_short_description = "Te despiertas en Erebus sin recordar nada. Encuentra
 # Erebus page sections
 features = "Características"
 screenshots = "Capturas"
+artwork = "Arte conceptual"
 available_on = "Disponible en"
 contact_or_follow = "Contáctanos o síguenos"
 
@@ -68,5 +70,6 @@ erebus_short_description = "Et despertes a Erebus sense recordar res. Troba resp
 # Erebus page sections
 features = "Característiques"
 screenshots = "Captures de pantalla"
+artwork = "Art conceptual"
 available_on = "Disponible a"
 contact_or_follow = "Contacte amb nosaltres o segueix-nos"

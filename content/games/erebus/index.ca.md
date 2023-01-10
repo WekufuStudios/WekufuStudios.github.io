@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "available_on", "contact_or_follow"]}
+extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "artwork", "available_on", "contact_or_follow"]}
 +++
 
 ![Test Dummy](test_dummy.png)
@@ -58,11 +58,29 @@ Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que
 </div>
 
 
+# Art conceptual
+
+<div class="image-grid">
+    <img src="artwork/bosquejo_terr_1.jpg" alt="Artwork 1">
+    <img src="artwork/campfire.jpg" alt="Artwork 2">
+    <img src="artwork/casa_tenebrosa.jpg" alt="Artwork 3">
+    <img src="artwork/femaleakb.jpg" alt="Artwork 4">
+    <img src="artwork/main_character.jpg" alt="Artwork 5">
+    <img src="artwork/scout.png" alt="Artwork 6">
+    <img src="artwork/soldier_armadura.jpg" alt="Artwork 7">
+    <img src="artwork/tobias_el_mercader.jpg" alt="Artwork 8">
+    <img src="artwork/volcan.jpg" alt="Artwork 9">
+    <img src="artwork/zombie_2.jpg" alt="Artwork 10">
+    <img src="artwork/zombie.jpg" alt="Artwork 11">
+    <img src="artwork/zombie_elite.jpg" alt="Artwork 12">
+</div>
+
+
 # Disponible a:
 
 <div class="horizontal-container wrap" style="gap: 16px;">
-    <img src="/icons/windows.svg" alt="Windows icon" width="36px">
     <img src="/icons/linux.svg" alt="Linux icon" width="36px">
+    <img src="/icons/windows.svg" alt="Windows icon" width="36px">
 </div>
 <br>
 <br>
