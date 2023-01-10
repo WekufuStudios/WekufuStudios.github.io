@@ -3,7 +3,11 @@
 {% block title %}{{ section.title }}{% endblock title %}
 
 {% block content %}
-<ul>
-    <li><a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">Erebus</a></li>
-</ul>
+<a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">
+    <img src="/web_header_erebus.png" alt="Erebus">
+</a>
+<p>
+    {{ trans(key="erebus_short_description", lang=lang) }}
+</p>
+<img src="/header_images/erebus/corte_01.jpg" alt="Erebus" width="66%">
 {% endblock content %}

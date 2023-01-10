@@ -44,23 +44,25 @@ header {
     z-index: 1;
 }
 
-nav>ul {
-    list-style: none;
-    margin: 0;
-}
+nav {
+    ul {
+        list-style: none;
+        margin: 0;
 
-nav>ul>li {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 16px;
-}
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 16px;
 
-nav>ul>li>a {
-    font-size: 2rem;
-}
+            a {
+                font-size: 2rem;
+            }
+        }
+    }
 
-nav img {
-    object-fit: contain;
+    img {
+        object-fit: contain;
+    }
 }
 
 header>img {
@@ -104,16 +106,17 @@ footer {
     position: relative;
     background-color: lighten($primary-color, 5%);
     padding: 8px;
-}
 
-footer>ul {
-    list-style: none;
-    position: absolute;
-    right: 16px;
-    bottom: 8px;
-    padding: 0;
-    margin: 0;
-    gap: 6px;
+    ul {
+        list-style: none;
+        position: absolute;
+        right: 16px;
+        bottom: 8px;
+        padding: 0;
+        margin: 0;
+        gap: 6px;
+
+    }
 }
 
 #wekufu-members-hcontainer {

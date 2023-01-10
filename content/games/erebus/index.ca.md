@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "download_demo", "available_on", "contact_or_follow"]}
+extra = {icon = "/erebus_icon.jpg", header_image = "/erebus_title.png", header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "available_on", "contact_or_follow"]}
 +++
 
 ![Test Dummy](test_dummy.png)
@@ -58,15 +58,14 @@ Submergeix-te en un món hostil alhora que misteriós i descobreix les raons que
 </div>
 
 
-# Descarga la demo
-
-<div class="horizontal-container wrap" style="gap: 70px;">
-    <a href="/demo/erebus_windows_demo.zip" download><img src="/icons/windows.svg" alt="Windows icon" width="90px"></a>
-    <a href="/demo/erebus_linux_demo.zip" download><img src="/icons/linux.svg" alt="Linux icon" width="90px"></a>
-</div>
-
-
 # Disponible a:
+
+<div class="horizontal-container wrap" style="gap: 16px;">
+    <img src="/icons/windows.svg" alt="Windows icon" width="36px">
+    <img src="/icons/linux.svg" alt="Linux icon" width="36px">
+</div>
+<br>
+<br>
 
 <div class="horizontal-container wrap" style="gap: 70px;">
     <a href="https://wekufu-studios.itch.io/erebus" rel="me" target="_blank"><img src="/icons/itchio.svg" alt="Itch.io icon" width="90px"></a>
