@@ -63,16 +63,10 @@ Sumérgete en un mundo hostil a la par que misterioso y descubre los motivos que
 <div class="image-grid">
     <img src="artwork/bosquejo_terr_1.jpg" alt="Artwork 1">
     <img src="artwork/campfire.jpg" alt="Artwork 2">
-    <img src="artwork/casa_tenebrosa.jpg" alt="Artwork 3">
-    <img src="artwork/femaleakb.jpg" alt="Artwork 4">
-    <img src="artwork/main_character.jpg" alt="Artwork 5">
-    <img src="artwork/scout.png" alt="Artwork 6">
-    <img src="artwork/soldier_armadura.jpg" alt="Artwork 7">
-    <img src="artwork/tobias_el_mercader.jpg" alt="Artwork 8">
-    <img src="artwork/volcan.jpg" alt="Artwork 9">
-    <img src="artwork/zombie_2.jpg" alt="Artwork 10">
-    <img src="artwork/zombie.jpg" alt="Artwork 11">
-    <img src="artwork/zombie_elite.jpg" alt="Artwork 12">
+    <img src="artwork/scout.png" alt="Artwork 3">
+    <img src="artwork/volcan.jpg" alt="Artwork 4">
+    <img src="artwork/zombie.jpg" alt="Artwork 5">
+    <img src="artwork/zombie_elite.jpg" alt="Artwork 6">
 </div>
 
 
