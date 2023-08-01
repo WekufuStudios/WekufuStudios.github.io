@@ -28,6 +28,7 @@ here = "here"
 games = "Games"
 about_us = "About Us"
 
+jam_games = "Jam Games"
 # Game descriptions
 erebus_short_description = "You wake up in Erebus without any memories. Find answers as you explore this world, find equipment, and fight different enemies."
 
@@ -46,6 +47,7 @@ here = "aquí"
 games = "Juegos"
 about_us = "Acerca de Nosotros"
 
+jam_games = "Juegos Subidos en una Jam"
 # Game descriptions
 erebus_short_description = "Te despiertas en Erebus sin recordar nada. Encuentra respuestas mientras exploras este mundo, busca equipamiento, y lucha diferentes enemigos."
 
@@ -64,6 +66,7 @@ here = "aquí"
 games = "Jocs"
 about_us = "Sobre nosaltres"
 
+jam_games = "Jocs Publicats en una Jam"
 # Game descriptions
 erebus_short_description = "Et despertes a Erebus sense recordar res. Troba respostes mentre explores aquest món, busca equipament, i enfrontat a diferents enemics."
 
