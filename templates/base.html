@@ -15,7 +15,7 @@
 <body {% if page.extra.body_class %} class="{{ page.extra.body_class }}" {% endif %}>
   <header>
     <img
-      src="{% if page.extra.header_image %}{{ page.extra.header_image }}{% else %}/erebus_title_screen.png{% endif %}"
+      src="{% if page.extra.header_image %}{{ page.extra.header_image }}{% else %}/header_images/erebus/corte_05.jpg{% endif %}"
       alt="Wekufu title" width="100%" height="300px">
     <div style="position: relative;">
       <img id="header-logo"
@@ -83,6 +83,12 @@
   <script src="/code/image_viewer.js"></script>
   <script src="/code/header.js"></script>
   <script src="/code/back_to_top_button.js"></script>
+  {% if page.extra.header_image_paths %}
+  <script>
+    header_image_paths = {{ page.extra.header_image_paths }}
+    choseAndAnimateHeaderImage()
+  </script>
+  {% endif %}
 </body>
 
 </html>

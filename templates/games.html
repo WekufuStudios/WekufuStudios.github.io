@@ -3,15 +3,30 @@
 {% block title %}{{ section.title }}{% endblock title %}
 
 {% block content %}
-<a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">
-    <img src="/web_header_erebus.png" alt="Erebus">
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">
+        <img src="/games/erebus/cover.png" alt="Erebus" width="250px">
+    </a>
+</div>
+
+
+<h1>{{ trans(key="jam_games", lang=lang) }}</h1>
+
+<div class="horizontal-container wrap" style="gap: 70px;">
+    <a href="{{ get_url(path='@/games/a-new-home/index.md', lang=lang) }}">
+        <img src="/games/a-new-home/cover.png" alt="A New Home" width="250px">
+    </a>
+</div>
+
+<!-- <a href="{{ get_url(path='@/games/erebus/index.md', lang=lang) }}">
+    <img src="/web_header_erebus.png" alt="A New Home">
 </a>
 <p>
     {{ trans(key="erebus_short_description", lang=lang) }}
 </p>
 <img src="/header_images/erebus/corte_01.jpg" alt="Erebus" width="66%">
 
-<a href="{{ get_url(path='@/games/a_new_home/index.md', lang=lang) }}">
+<a href="{{ get_url(path='@/games/a-new-home/index.md', lang=lang) }}">
     <img src="/web_header_erebus.png" alt="Erebus">
-</a>
+</a> -->
 {% endblock content %}

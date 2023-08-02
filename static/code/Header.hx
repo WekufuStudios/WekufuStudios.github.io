@@ -3,7 +3,7 @@ import js.html.Console;
 import js.Browser;
 
 class Header {
-    static final IMAGE_PATHS = ["/games/erebus/screenshots/07.jpg", "/games/erebus/screenshots/08.jpg", "/games/erebus/screenshots/09.jpg", "/games/erebus/screenshots/10.jpg", "/games/erebus/screenshots/12.jpg",
+    static var header_image_paths = ["/games/erebus/screenshots/07.jpg", "/games/erebus/screenshots/08.jpg", "/games/erebus/screenshots/09.jpg", "/games/erebus/screenshots/10.jpg", "/games/erebus/screenshots/12.jpg",
         "/header_images/erebus/corte_01.jpg", "/header_images/erebus/corte_02.jpg", "/header_images/erebus/corte_03.jpg", "/header_images/erebus/corte_05.jpg", "/header_images/erebus/corte_06.jpg"];
     static final HEADER_IMAGE: ImageElement = cast(Browser.document.getElementsByTagName("header")[0].getElementsByTagName("img")[0], ImageElement);
     
@@ -56,7 +56,7 @@ class Header {
                 }
             }
         }
-        HEADER_IMAGE.src = IMAGE_PATHS[Math.floor(Math.random() * IMAGE_PATHS.length)];
+        HEADER_IMAGE.src = header_image_paths[Math.floor(Math.random() * header_image_paths.length)];
     }
 
     static function getImageRealHeight(img: ImageElement): Float {

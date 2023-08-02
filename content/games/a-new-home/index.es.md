@@ -1,11 +1,19 @@
 +++
 title = "A New Home"
 date = "2023-08-01"
-extra = {icon = "icon350x350.png", header_image = "screenshots/01.png", header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "artwork", "available_on", "contact_or_follow"]}
+extra = {icon = "icon350x350.png", header_image_paths = ["'/games/a-new-home/screenshots/01.png', '/games/a-new-home/screenshots/02.png', '/games/a-new-home/screenshots/03.jpg'"], header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "available_on"]}
 +++
 
+Hicimos este juego en 2 días para Striked Game Jam 2023.
 
-# Screenshots
+
+# Características
+- Encuentra un nuevo planeta habitable
+- Enfréntate a peligros por el camino: estrellas, gigantes gaseosos, enemigos, y asteroides
+- Repara la nave o rellena su combustible en otros planetas
+
+
+# Capturas
 
 <div class="image-grid">
     <img src="screenshots/01.png" alt="Screenshot 1">
@@ -22,7 +30,8 @@ extra = {icon = "icon350x350.png", header_image = "screenshots/01.png", header_t
     <img src="screenshots/12.jpg" alt="Screenshot 12"> -->
 </div>
 
-# Available on:
+
+# Disponible en:
 
 <div class="horizontal-container wrap" style="gap: 16px;">
     <img src="/icons/linux.svg" alt="Linux icon" width="36px">
