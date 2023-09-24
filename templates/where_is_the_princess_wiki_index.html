@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }}{% endblock title %}
+
+{% block content %}
+<h1>Wiki</h1>
+
+<p>This wiki contains various pages to help you get started developing mods</p>
+
+<p>This webpage is <a href="https://github.com/WekufuStudios/WekufuStudios.github.io/tree/Code" target="_blank"
+        rel="noopener noreferrer">open source</a>. If you find anything wrong, please open an issue or make a pull
+    request. You can also let us know using the social media at the bottom right of this page.</p>
+
+{% for post in section.pages %}
+<h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+{% endfor %}
+{% endblock content %}

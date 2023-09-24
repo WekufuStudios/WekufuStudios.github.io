@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="/main.css">
   {% if page.extra.icon %}
   <link rel="icon" type="image/png" href="{{ page.extra.icon }}">
+  {% elif section.extra.icon %}
+  <link rel="icon" type="image/png" href="{{ section.extra.icon }}">
   {% else %}
   <link rel="icon" type="image/png" href="/wekufu_logo.png">
   {% endif %}
@@ -43,7 +45,8 @@
             page.extra.bar_icon }}{% else %}"/wekufu_logo.png"{% endif %} alt="Logo" width="40px" height="40px"></a>
         {% if page.extra.top_bar_elements %}
         {% for element in page.extra.top_bar_elements %}
-      <li><a href="#{{ trans(key=element, lang=lang) | slugify }}">{{ trans(key=element, lang=lang) }}</a></li>
+      <li><a href="{{ element.link | lower | replace(from=" ", to="-") }}">{{ element.text }}</a>
+      </li>
       {% endfor %}
       {% else %}
       </li>

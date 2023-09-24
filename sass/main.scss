@@ -267,5 +267,16 @@ footer {
     }
 }
 
+#terminal-commands ul,
+li {
+    list-style: none;
+}
+
+#terminal-commands li {
+    padding: 10px;
+    border: 2px solid $primary-color;
+    background-color: lighten($primary-color, 4);
+}
+
 
 @import "_small_width.scss";

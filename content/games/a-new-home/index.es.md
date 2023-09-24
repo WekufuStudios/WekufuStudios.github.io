@@ -1,7 +1,7 @@
 +++
 title = "A New Home"
 date = "2023-08-01"
-extra = {icon = "icon350x350.png", header_image_paths = ["'/games/a-new-home/screenshots/01.png', '/games/a-new-home/screenshots/02.png', '/games/a-new-home/screenshots/03.jpg'"], header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "available_on"]}
+extra = {icon = "icon350x350.png", header_image_paths = ["'/games/a-new-home/screenshots/01.png', '/games/a-new-home/screenshots/02.png', '/games/a-new-home/screenshots/03.jpg'"], header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = [{link = "#Características", text = "Características"}, {link = "#Capturas", text = "Capturas"}, {link = "#Disponible en", text = "Disponible en"}]}
 +++
 
 Hicimos este juego en 2 días para Striked Game Jam 2023.

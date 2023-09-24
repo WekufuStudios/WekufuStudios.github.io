@@ -1,10 +1,10 @@
 +++
 title = "A New Home"
 date = "2023-08-01"
-extra = {icon = "icon350x350.png", header_image_paths = ["'/games/a-new-home/screenshots/01.png', '/games/a-new-home/screenshots/02.png', '/games/a-new-home/screenshots/03.jpg'"], header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "available_on"]}
+extra = {icon = "icon350x350.png", header_image_paths = ["'/games/a-new-home/screenshots/01.png', '/games/a-new-home/screenshots/02.png', '/games/a-new-home/screenshots/03.jpg'"], header_title = "", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = [{link = "#Característiques", text = "Característiques"}, {link = "#Captures de pantalla", text = "Captures de pantalla"}, {link = "#Disponible a", text = "Disponible a"}]}
 +++
 
-Vam fer aquest joc per Striked Game Jam 2023.
+Vam fer aquest joc en 2 dies per Striked Game Jam 2023.
 
 
 # Característiques

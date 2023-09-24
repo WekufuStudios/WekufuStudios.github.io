@@ -1,7 +1,7 @@
 +++
 title = "Erebus"
 date = "2022-11-25"
-extra = {icon = "/erebus_icon.jpg", header_image_paths = ['"/games/erebus/screenshots/07.jpg", "/games/erebus/screenshots/08.jpg", "/games/erebus/screenshots/09.jpg", "/games/erebus/screenshots/10.jpg", "/games/erebus/screenshots/12.jpg", "/header_images/erebus/corte_01.jpg", "/header_images/erebus/corte_02.jpg", "/header_images/erebus/corte_03.jpg", "/header_images/erebus/corte_05.jpg", "/header_images/erebus/corte_06.jpg"'], header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = ["features", "screenshots", "artwork", "available_on", "contact_or_follow"]}
+extra = {icon = "/erebus_icon.jpg", header_image_paths = ['"/games/erebus/screenshots/07.jpg", "/games/erebus/screenshots/08.jpg", "/games/erebus/screenshots/09.jpg", "/games/erebus/screenshots/10.jpg", "/games/erebus/screenshots/12.jpg", "/header_images/erebus/corte_01.jpg", "/header_images/erebus/corte_02.jpg", "/header_images/erebus/corte_03.jpg", "/header_images/erebus/corte_05.jpg", "/header_images/erebus/corte_06.jpg"'], header_title = "/web_header_erebus.png", bar_icon = "/icon_border_blue.png", body_class = "erebus-page", back_to_top_button = "/go_up_button_blue.png", top_bar_elements = [{link = "#Características", text = "Características"}, {link = "#Capturas", text = "Capturas"}, {link = "#Arte conceptual", text = "Arte conceptual"}, {link = "#Disponible en", text = "Disponible en"}, {link = "#Contáctanos o síguenos", text = "Contáctanos o síguenos"}]}
 +++
 
 ![Test Dummy](test_dummy.png)
