@@ -1,0 +1,6 @@
+<div class="image-grid">
+    {% set screenshots = load_data(path=yml_path) -%}
+    {% for screenshot in screenshots %}
+        <img src="{{ screenshot.path }}" alt="{{ screenshot.caption }}">
+    {% endfor %}
+</div>

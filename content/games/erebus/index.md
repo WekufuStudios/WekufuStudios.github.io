@@ -42,32 +42,12 @@ Dive in a hostile and mysterious world and unveil the reasons that left you in E
 
 # Screenshots
 
-<div class="image-grid">
-    <img src="screenshots/01.jpg" alt="Screenshot 1">
-    <img src="screenshots/02.jpg" alt="Screenshot 2">
-    <img src="screenshots/03.jpg" alt="Screenshot 3">
-    <img src="screenshots/04.jpg" alt="Screenshot 4">
-    <img src="screenshots/05.jpg" alt="Screenshot 5">
-    <img src="screenshots/06.jpg" alt="Screenshot 6">
-    <img src="screenshots/07.jpg" alt="Screenshot 7">
-    <img src="screenshots/08.jpg" alt="Screenshot 8">
-    <img src="screenshots/09.jpg" alt="Screenshot 9">
-    <img src="screenshots/10.jpg" alt="Screenshot 10">
-    <img src="screenshots/11.jpg" alt="Screenshot 11">
-    <img src="screenshots/12.jpg" alt="Screenshot 12">
-</div>
+{{ image_grid(yml_path="/games/erebus/screenshots/screenshots.yml") }}
 
 
 # Artwork
 
-<div class="image-grid">
-    <img src="artwork/bosquejo_terr_1.jpg" alt="Artwork 1">
-    <img src="artwork/campfire.jpg" alt="Artwork 2">
-    <img src="artwork/scout.png" alt="Artwork 3">
-    <img src="artwork/volcan.jpg" alt="Artwork 4">
-    <img src="artwork/zombie.jpg" alt="Artwork 5">
-    <img src="artwork/zombie_elite.jpg" alt="Artwork 6">
-</div>
+{{ image_grid(yml_path="/games/erebus/artwork/artwork.yml") }}
 
 
 # Available on:
