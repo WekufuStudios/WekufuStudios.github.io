@@ -21,15 +21,6 @@ We made this game in 2 days for the Striked Game Jam 2023.
     <img src="screenshots/01.png" alt="Screenshot 1">
     <img src="screenshots/02.png" alt="Screenshot 2">
     <img src="screenshots/03.jpg" alt="Screenshot 3">
-  <!--   <img src="screenshots/04.jpg" alt="Screenshot 4">
-    <img src="screenshots/05.jpg" alt="Screenshot 5">
-    <img src="screenshots/06.jpg" alt="Screenshot 6">
-    <img src="screenshots/07.jpg" alt="Screenshot 7">
-    <img src="screenshots/08.jpg" alt="Screenshot 8">
-    <img src="screenshots/09.jpg" alt="Screenshot 9">
-    <img src="screenshots/10.jpg" alt="Screenshot 10">
-    <img src="screenshots/11.jpg" alt="Screenshot 11">
-    <img src="screenshots/12.jpg" alt="Screenshot 12"> -->
 </div>
 
 # Available on:
