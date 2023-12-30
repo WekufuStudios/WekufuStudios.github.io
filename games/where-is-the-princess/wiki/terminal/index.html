@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Terminal</title>
+  <link rel="stylesheet" href="/main.css">
+  
+  <link rel="icon" type="image/png" href="&#x2F;games&#x2F;where-is-the-princess&#x2F;icon.png">
+  
+</head>
+
+<body  class="erebus-page" >
+  <header>
+    <img
+      src="/header_images/erebus/corte_05.jpg"
+      alt="Wekufu title" width="100%" height="300px">
+    <div style="position: relative;">
+      <img id="header-logo"
+        src="&#x2F;web_header_erebus.png"
+        alt="Header image fade">
+    </div>
+    <div style="position: relative;">
+      <img id="header-image-fade" src="/header_fade_down.png" alt="Header image fade">
+    </div>
+    <div id="lang-picker">
+      
+      
+      <a href="https://WekufuStudios.github.io/games/where-is-the-princess/wiki/terminal/"><img src="/flags/en.png" alt="Language flag"></a>
+      
+      
+    </div>
+  </header>
+  <nav id="top-bar">
+    <ul>
+      <li><a href="https://WekufuStudios.github.io"><img class="rotate-on-hover" src=&#x2F;icon_border_blue.png alt="Logo" width="40px" height="40px"></a>
+        
+        
+      <li><a href="&#x2F;games&#x2F;where-is-the-princess&#x2F;wiki">Wiki</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      
+<p>The terminal can be useful to test the mods, it has an option to make you invincible, to spawn weapons, armors, items...</p>
+<p>To open the terminal, enable the debug interface pressing F2 and press Ctrl+T</p>
+<p>There are parameters that have spaces, in these cases, you have to wrap the parameter in &quot; so it's detected as a single parameter and not two.</p>
+<p>List of commands you can use on the terminal:</p>
+<ul id="terminal-commands">
+    <li>
+        set
+        <ul>
+            <li>
+                hp
+                <p>
+                <p>Set player hp</p>
+                <p>Examples:</p>
+                <ul>
+                    <li><code>set hp 2</code></li>
+                </ul>
+                </p>
+            </li>
+            <li>armor condition, ac, armor cond</li>
+            <li>current weapon condition, weapon condition, wc, weapon cond</li>
+            <li>worldcol</li>
+            <li>invincible, in</li>
+            <li>time scale, ts</li>
+            <li>souls</li>
+            <li>dark souls, ds</li>
+        </ul>
+    </li>
+    <li>
+        spawn
+        <ul>
+            <li>weapon, weap</li>
+            <li>item</li>
+            <li>enemy</li>
+        </ul>
+    </li>
+</ul>
+
+    </div>
+  </main>
+  <footer>
+    <p>Made with <a href="https://www.getzola.org/" target="_blank" rel="noopener noreferrer">Zola</a></p>
+    <ul class="horizontal-container wrap">
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;mastodon.gamedev.place&#x2F;@wekufustudios"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;mastodon.svg" alt="Mastodon icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="mailto:wekufu.studios@gmail.com"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;mail.png" alt="Mail icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;wekufu-studios.itch.io&#x2F;"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;itchio.svg" alt="itchio icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;nitter.unixfox.eu&#x2F;WekufuStudios"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;twitter.svg" alt="Twitter icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@wekufustudios"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;youtube.svg" alt="Youtube icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;matrix.to&#x2F;#&#x2F;#wekufu-studios:matrix.org"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;matrix.svg" alt="Matrix icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;discord.gg&#x2F;gKsKzpY9"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;discord.svg" alt="Discord icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+      <li>
+        <a href="https:&#x2F;&#x2F;www.facebook.com&#x2F;profile.php?id=100089191994274"
+          rel="me" target="_blank"><img src="&#x2F;icons&#x2F;facebook.svg" alt="Facebook icon"
+            width="24px" height="24px"></a>
+      </li>
+      
+    </ul>
+  </footer>
+
+  <div id="image-viewer">
+    <img alt="Expanded image">
+  </div>
+
+  <img id="back-to-top-button"
+    src="&#x2F;go_up_button_blue.png"
+    alt="Back to top button" width="60" height="60" onclick="scrollUp()">
+
+  <script src="/code/image_viewer.js"></script>
+  <script src="/code/header.js"></script>
+  <script src="/code/back_to_top_button.js"></script>
+  
+  <script>
+    header_image_paths = ["/games/where-is-the-princess/screenshots/Screenshot_20230803_190914.png"]
+    choseAndAnimateHeaderImage()
+  </script>
+  
+</body>
+
+</html>
